@@ -6,8 +6,6 @@ services:
     restart: unless-stopped
     ports:
       - 9097:80
-    volumes:
-      - $PWD/vol:/usr/local/apache2/htdocs/
 
 
 
